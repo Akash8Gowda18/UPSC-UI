@@ -1,0 +1,64 @@
+.ecom__userexperience{
+    border-radius: 35px;
+    background: #CFFFFE;
+    box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.10);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 1rem;
+   
+
+}
+
+.ecom__userexperience-content{
+color: var(--color-highlight);
+text-align: center;
+font-family: var(--font-family);
+}
+
+.ecom__userexperience-content h3{
+font-size: 36px;
+font-weight: 700;
+}
+
+.ecom__userexperience-content p{  
+font-size: 15px;
+font-weight: 400;
+}
+
+
+
+
+
+
+@media  screen and (max-width:650px) {
+    .ecom__userexperience{
+        flex-direction: column;
+    }
+
+    .gpt4__cta-btn{
+        margin: 2rem 0 0;
+    }
+}
+
+@media  screen and (max-width:550px) {
+    .ecom__userexperiencea{
+       margin: 4rem 2rem;
+    }
+
+    .gpt4__cta-content h3{
+        font-size: 18px;
+        line-height: 32px;
+
+    }
+
+    .gpt4__cta-btn button{
+        font-size: 14px;
+        line-height: 28px;
+    }
+}

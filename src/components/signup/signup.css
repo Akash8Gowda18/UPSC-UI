@@ -1,0 +1,228 @@
+.ecom__signup{
+    display: flex;
+    width: 1170px;
+    height: 782px;
+flex-shrink: 0;
+border-radius: 85px;
+border: 7px solid #88D1D0;
+margin: 0rem 3rem;
+margin-top: 3rem;
+margin-bottom: 2rem;
+padding-bottom: 4rem;
+}
+
+.ecom__sign h3{
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 8rem;
+}
+
+.ecom__sign p{
+    width: 200px;
+height: 20px;
+    color: #585858;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 2rem;
+}
+
+.ecom__signup-firstName{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+
+.firstName label{
+    color: #000;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.firstName input{
+    width: 467px;
+height: 58px;
+margin-right: 2rem;
+margin-top: 1rem;
+border-radius: 8.479px;
+  border-color:#535353 ;  
+}
+
+.lastName label{
+    width: 92px;
+height: 18px;
+color: #000;
+
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.lastName input{
+    width: 466px;
+height: 58px;
+margin-top: 1rem;
+margin-bottom: 3rem;
+flex-shrink: 0;
+border-radius: 8.479px;
+  border-color:#535353 ;  
+}
+
+.ecom__signup-email{
+    width: 74px;
+height: 17px;
+margin-bottom: 3rem;
+color: #000;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 6rem;
+}
+
+
+
+.ecom__signup-email input{
+    width: 966px;
+height: 56px;
+border-radius: 8.479px;
+  border-color:#535353 ; 
+  margin-top: 1rem; 
+  
+}
+
+.ecom__signup-pass{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+    
+}
+.ecom__signup-pass__create label{
+    width: 138px;
+    height: 19px;
+    color: #000;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.ecom__signup-pass__create input{
+    width: 466px;
+height: 56px;
+border-radius: 8.479px;
+  border-color:#535353 ;
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+
+.ecom__signup-pass__confirm label{
+    width: 167px;
+height: 19px;
+color: #000;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.ecom__signup-pass__confirm input{
+    width: 466px;
+height: 56px;
+border-radius: 8.479px;
+  border-color:#535353 ;
+  margin-top: 1rem;
+}
+
+.ecom__checkbox input{
+
+    width: 19px;
+    height: 14px;
+
+}
+.ecom__checkbox label{
+    width: 661px;
+height: 14px;
+color: #979797;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.ecom__sign button{
+    width: 377px;
+height: 73px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #88D1D0;
+margin-top: 2rem;
+margin-left: 17rem;
+color: #FFF;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+@media screen and (max-width: 600px){
+    .ecom__signup{
+        padding: 1rem 0.8rem;
+        width: 360px;
+        height: 916px;
+
+
+    }
+    .ecom__sign h3{
+        margin-left: -2rem;
+    }
+
+    .ecom__signup-firstName{
+        flex-direction: column;
+    }
+
+    .firstName input{
+        width: 327px;
+        margin-bottom: 1rem;
+    }
+
+    .lastName input{
+        width: 327px;
+    }
+    .ecom__signup-email input{
+        width: 327px;
+
+    }
+    .ecom__signup-pass{
+        flex-direction: column;
+    }
+    .ecom__signup-pass__create input{
+        width: 327px;
+        margin-bottom: 1rem;
+    }
+    .ecom__signup-pass__confirm input{
+        width: 327px;
+    }
+
+    .ecom__sign button{
+        width: 258px;
+        margin-left: 3rem;
+        margin-top: 1rem;
+    }
+}

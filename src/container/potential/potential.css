@@ -1,0 +1,91 @@
+.ecom__potential{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color:var(--color-highlight);
+    font-family:var(--font-family);
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.ecom__potential-square{
+    display: flex;
+    padding: 2rem 5rem;
+    
+}
+
+.square {
+   
+    width: 280px;
+    height: 240px;
+    border-radius: 10px;
+    background-color:var(--color-fill);
+    display: flex;
+    padding: 1.5rem;
+    margin: 0.5rem 1.6rem;
+    
+
+  } 
+
+  .text {
+    margin: auto;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 600;
+  }
+
+
+  
+  @media screen and (max-width:1500px){
+    .ecom__potential-square{
+        flex-wrap: wrap;
+        padding: 0  5rem;
+      margin:0  5rem;
+    }
+  
+  
+    .square{
+      display: flex;
+      padding: 1rem;
+      margin: 0.5rem 1.6rem;
+        
+    }
+  
+    .text{
+      margin: auto;
+    }
+  
+  }
+
+  @media screen and (max-width:1500px){
+    .ecom__potential-square{
+      flex-wrap: wrap;
+      padding: 0  5rem;
+    margin:8px;
+  }
+
+
+  .square{
+    display: flex;
+    padding: 1rem;
+    margin: 5px;
+      
+  }
+
+  .text{
+    margin: auto;
+  }
+
+  .ecom__potential{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color:var(--color-highlight);
+    font-family:var(--font-family);
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+}

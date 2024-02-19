@@ -1,0 +1,169 @@
+
+.ecom__delivery-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 22rem;
+   
+}
+.ecom__delivery {
+    
+width: 1280px;
+height: 832px;
+}
+.ecom__delivery button,link{
+    width: 120px;
+    height: 41.86px;
+    border-radius: 20.93px;
+background: #007F7D;
+color: #FFF;
+font-family: Inter;
+font-size: 17.86px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.ecom__delivery-details__person{
+    margin-left: -38rem;
+    margin-top: 4rem;
+}
+.ecom__delivery-details__person label{
+    /* color: #F00; */
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 6rem;
+    margin-left: 16rem;
+}
+
+.ecom__delivery-details__person input{
+    width: 445.018px;
+height: 34.841px;
+border-radius: 3.167px;
+background: #E2E2E2;
+}
+.ecom__delivery-details__person input {
+    margin-bottom: 1rem;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+.ecom__delivery-address label{
+    margin-right: 7rem;
+}
+.ecom__delivery-address input{
+    width: 445.018px;
+height: 91.854px;
+border-radius: 3.167px;
+background: #E2E2E2;
+margin-top: 1rem;
+}
+.ecom__delivery-email label{
+    margin-right: 5rem;
+    margin-top: 2rem;
+}
+
+.ecom__delivery-details__person button{
+    width: 93px;
+height: 28px;
+color: #FFF;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-radius: 7.13px;
+background: #88D1D0;
+margin-left: 27rem;
+}
+
+.ecom__delivery-details__order{
+    width: 394px;
+height: 367.58px;
+border: 1.149px solid #757575;
+margin-left: 8rem;
+}
+
+span.price{
+    margin-left: 16rem;
+    color: #000;
+font-family: Inter;
+font-size: 11.487px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+span.charges{
+    margin-left: 12rem;
+    color: #000;
+font-family: Inter;
+font-size: 11.487px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+span.total{
+    margin-left: 12rem;
+    color: #000;
+font-family: Inter;
+font-size: 20.676px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+span.order{
+    margin-left: 15rem;
+    color: #46DC82;
+    font-family: Inter;
+    font-size: 16.082px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.ecom__delivery-order p{
+    margin-left: 1rem;
+}
+
+@media screen and (max-width: 600px){
+    .ecom__delivery{
+      
+    }
+    .ecom__delivery-details{
+        flex-direction: column;
+       
+    }
+    .ecom__delivery-details__person{
+        margin-left: -92rem;
+    }
+    .ecom__delivery-details__person input{
+        margin-left: -3rem;
+        width: 268px;
+    }
+    .ecom__delivery-details__order{
+        margin-top: 2rem;
+        margin-left: -79rem;
+        width: 356px;
+    }
+    span.price{
+        margin-left: 14rem;
+    }
+    span.charges{
+        margin-left: 10rem;
+    }
+    
+span.total{
+    margin-left: 10rem;
+}
+span.order{
+    margin-left: 13rem;
+}
+}

@@ -1,0 +1,149 @@
+.ecom__adminpanel-leftcol{
+ width: 300px;
+height: 832px;
+background: #CCE3DE;
+padding: 1rem;
+}
+
+.ecom__adminpanel-leftcol h2{
+    color: #000;
+font-family: Inter;
+font-size: 25px;
+text-align: center;
+font-weight: 600;
+margin-top: 1rem;
+}
+
+.ecom__adminpanel-list ul,li{
+    color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+padding: 1.5rem;
+}
+
+.ecom__adminpanel-button{
+    padding: 1.5rem;
+}
+
+.ecom__adminpanel-button button{
+    width: 107px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 19px;
+background: #82D0BF;
+color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.ecom__adminpanel-rightcol{
+    padding: 2rem 4rem;
+}
+
+.ecom__adminpanel-rightheader h2{
+    padding: 1rem;
+    text-align: center;
+}
+
+.ecom__adminpanel-rightheader p{
+   
+    text-align: center;
+    color: #000;
+font-family: Inter;
+font-size: 23.376px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.ecom__adminpanel-rightcol-table {
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 800px;
+    height: 200px;
+}
+ 
+th {
+    border: 1px solid black;
+}
+ 
+td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.ecom__adminpanel-links-head h2{
+padding: 1rem;
+text-align: center;
+}
+
+.ecom__adminpanel-links-buttons button{
+ align-items: center;
+ margin:  1rem;
+ width: 196px;
+height: 34px;
+background: #BBDEDA;
+color: #000;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+border-radius: 10px;
+}
+
+.ecom__adminpanel-addlink input{
+    width: 314px;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    margin: 1rem;
+}
+
+.ecom__adminpanel-addlink button{
+    width: 180px;
+height: 36px;
+border-radius: 8px;
+background: #BBDEDA;
+}
+
+.ecom__adminpanel-space{
+    margin: 1rem;
+}
+
+.ecom__adminpanel-space button{
+    margin: 1rem;
+    width: 196px;
+height: 34px;
+flex-shrink: 0;
+color: #000;
+font-family: Inter;
+font-size: 16px;
+border-radius: 15px;
+font-weight: 600;
+
+}
+
+
+.ecom__adminpanel-save button{
+    width: 196px;
+height: 34px;
+flex-shrink: 0;
+background: #BBDEDA;
+color: #000;
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+border-radius: 15px;
+
+
+}

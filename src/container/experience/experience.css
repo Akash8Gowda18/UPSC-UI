@@ -1,0 +1,23 @@
+.ecom__experience{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color:var(--color-highlight);
+    font-family:var(--font-family);
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+
+.ecom__delivery-image {
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+  }
+
+.ecom__delivery-image img{
+width: 30%;
+    
+}
+

@@ -1,0 +1,88 @@
+.ecom__adminlogin{
+ width: 1000px;
+height: 832px;
+padding: 5rem;
+margin: 3rem 9rem;
+}
+
+
+.ecom__adminlogin-header{
+width: 830px;
+height: 111px;
+border-radius: 15px;
+background: #88D1D0;
+margin: 0rem 8rem;
+
+}
+
+.ecom__adminlogin-header h1{
+color: #FFF;
+font-family: Inter;
+font-size: 45px;
+text-align: center;
+font-weight: 700;
+}
+
+.ecom__adminlogin-header p{
+color: #FFF;
+font-family: Inter;
+font-size: 25px;
+text-align: center;
+font-weight: 600;
+line-height: normal;
+}
+
+.ecom__adminlogin-card{
+    width: 1067px;
+height: 478px;
+flex-shrink: 0;
+background: #F1F1F1;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+label{
+    margin: 2rem 2rem;
+    color: #848484;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+input[type=text] {
+   
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+
+  }
+
+  .ecom__forgetpassword p{
+    color: #067A79;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+justify-content: flex-end;
+padding: 1rem;
+  }
+
+ .ecom__adminlogin-button button{
+width: 300px;
+height: 88px;
+border-radius: 15px;
+background: #88D1D0;
+color: #FFF;
+font-family: Inter;
+font-size: 30px;
+margin-left: 25rem;
+font-weight: 700;
+
+  }
+
+

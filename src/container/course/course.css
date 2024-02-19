@@ -1,0 +1,53 @@
+.ecom__course{
+    display: flex;
+    flex-direction: row;
+}
+
+.ecom__header-content-image{
+    justify-content: center;
+    align-items: center;
+}
+
+.ecom__header-content-image img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.ecom__course-content h1{
+padding: 1rem 2rem;
+color: var(--color-highlight);
+font-family: var(--font-family);
+font-size: 36px;
+font-weight: 700;
+}
+
+.ecom__course-content p{
+padding: 1rem 2rem;
+color: var(--color-highlight);
+font-family: var(--font-family);
+font-size: 16px;
+font-weight: 600;
+}
+
+.ecom__course-image{
+    padding: 1rem 2rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+
+@media screen and (max-width:560px){
+    .ecom__course{
+        flex-direction: column;
+        
+    }
+
+
+}
+
+

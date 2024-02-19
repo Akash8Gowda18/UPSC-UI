@@ -1,0 +1,70 @@
+.ecom__payment-address-form{
+    width: 350px;
+height: 300px;
+border: 1px solid #007F7D;
+ margin: 1rem;
+}
+
+.ecom__payment-address{
+    display: flex;
+}
+
+.order{
+    display: flex;
+}
+
+.ecom__payment-order{
+    width: 430px;
+    height: 300px;
+    border: 1px solid #007F7D;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.ecom__payment-order p, h2{
+
+    margin-left: 1rem;
+}
+
+@media screen and (max-width:600px) {
+   
+.ecom__payment-address{
+    display: grid;
+    width: 300px;
+    height: 330px;
+   
+}
+
+.ecom__payment-address-form{
+    width: 300px;
+    height: 150px;
+}
+
+.ecom__payment-add{
+    margin-top: 3rem;
+}
+
+.ecom__payment-ordersummary{
+    margin-top: 2rem;
+}
+
+.ecom__payment-order{
+    width: 320px;
+    margin-left:1rem ;
+    margin-top: 22rem;
+    padding: 5px;
+    height: 250px;
+}
+
+.ecom__payment-order h2 ,p{
+    font-size: 10px;
+}
+
+
+.ecom__payment-pay{
+    margin-top: 25rem;
+    padding-left: 1rem;
+}
+
+}
+

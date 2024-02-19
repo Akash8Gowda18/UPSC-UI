@@ -1,0 +1,152 @@
+.ecom__books-heading h2{
+  color: #007F7D;
+  font-family: Inter;
+  font-size: 36px;
+  padding: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.ecom__books-container {
+  display: flex;
+  
+  
+}
+
+.ecom__books-image div p{
+  padding: 1rem;
+}
+
+.ecom__books-container img{
+  width:100%;
+  height: 60%;
+}
+ 
+
+
+.ecom__books-container p{
+  color: #007F7D;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+text-align: center;
+}
+
+.ecom__books-image{
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.ecom__books-view button{
+  width: 167.481px;
+height: 38px;
+border-radius: 19px;
+background: #CFFFFE;
+box-shadow: 0px 5.629629611968994px 5.629629611968994px 0px rgba(0, 0, 0, 0.15);
+color: #007F7D;
+text-align: center;
+font-family: Montserrat;
+font-size: 16.889px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.ecom__books-container h5{
+  color: #F00;
+  font-family:var(--font-family);
+  font-size: 20px;
+  font-weight: 600;
+  padding: 5px;
+  text-align: center;
+  }
+  
+  .ecom__books-container button{
+  width: 144.772px;
+  height: 45.844px;
+  border-radius: 12.064px;
+  background:var(--color-highlight);
+  color: #FFF;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 30px;  
+  }
+
+  @media screen and (max-width: 1200px){
+    .ecom__books-container{
+
+      overflow-x: scroll
+      
+        }
+  }
+  
+/*for mobile */
+@media screen and (max-width: 600px){
+  .ecom__books-heading{
+    font-weight: 600;
+  font-size: 3px;
+
+  }
+
+
+  .ecom__books-container{
+
+overflow-x: scroll
+
+  }
+
+  .ecom__books-container img{
+    width: 100%;
+    height: 50%;
+  }
+
+  .ecom__books-container p{
+    color: #007F7D;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  }
+
+  .ecom__books-container h5{
+    color: #F00;
+    font-family:var(--font-family);
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px;
+    text-align: center;
+    }
+    
+    .ecom__books-container button{
+    width: 100px;
+    height: 40px;
+    border-radius: 12.064px;
+    background:var(--color-highlight);
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 30px;  
+    }
+
+    .ecom__books-view button{
+      width: 120px;
+    height: 30px;
+    border-radius: 19px;
+    box-shadow: 0px 5.629629611968994px 5.629629611968994px 0px rgba(0, 0, 0, 0.15);  
+    text-align: center;
+    font-size: 16.889px;
+    font-weight: 400;
+    margin: 1rem 4rem;
+    
+    
+    }
+ 
+
+
+}
+

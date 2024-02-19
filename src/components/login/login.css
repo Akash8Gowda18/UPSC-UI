@@ -1,0 +1,229 @@
+.ecom {
+    display: flex;
+    flex-direction: row;
+    
+}
+.ecom__login{
+    display: flex;
+    flex-direction: column;
+    width: 499px;
+    height: 680px;
+    justify-content: center;
+    align-items: center;
+    background-color: #88D1D0;
+   
+
+}
+
+.ecom__login h2{
+    color: #FFF;
+font-family: Inter;
+font-size: 49.983px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.ecom__login p{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 18.095px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+.ecom__login-form{
+   display: flex;
+   flex-direction: column;
+  
+   margin-left: 40px;
+    
+}
+
+.ecom__login-form__logo img{
+   width: 320px;
+   height: 90px;
+   margin-top: 4rem;
+   margin-left: 17rem;
+}
+.ecom__input-container__email{
+    width: 556px;
+    height: 52.087px;
+    margin-top: 4rem;
+    margin-left: 12rem;    
+}
+.ecom__input-container__pass{
+    width: 556px;
+    height: 52.087px;
+    margin-top: 4rem;
+    margin-left: 12rem;    
+}
+.ecom__input-container__email label{
+    color: #000;
+font-family: Inter;
+font-size: 18.17px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.ecom__input-container__email input{
+width: 556px;
+height: 52.087px;
+margin-top: 1rem;
+flex-shrink: 0;
+border-radius: 8.479px;
+background: #D9D9D9;
+}
+.ecom__input-container__pass label{
+    color: #000;
+    font-family: Inter;
+    font-size: 18.17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.ecom__input-container__pass input{
+    width: 556px;
+    height: 52.087px;
+    margin-top: 1rem;
+    flex-shrink: 0;
+    border-radius: 8.479px;
+background: #D9D9D9;
+}
+
+.ecom__button-container__login button{
+    width: 556px;
+height: 62.989px;
+text-align: center;
+ margin-top: 4rem;
+margin-left: 12rem;    
+
+border-radius: 31.495px;
+background: #88D1D0;
+color: #FFF;
+font-family: Inter;
+font-size: 18.17px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.ecom__button-container__otp button{
+    width: 556px;
+    height: 53.298px;
+    border-radius: 10.902px;
+border: 1.211px solid #585858;
+margin-left: 12rem;
+
+}
+.ecom__or h3{
+    margin-left: 28rem;
+}
+
+@media screen and (max-width: 600px) {
+    .ecom {
+        padding:0 0rem;
+        display: grid;
+       
+      }
+
+      .ecom__login{
+        flex-direction: column;
+        height: 200px;
+        justify-content:flex-start;
+        align-items:flex-start;
+        background-color: #88D1D0;
+       width: 100%;
+      }
+
+      .ecom__login h2{
+        color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 700;
+    line-height: normal;
+    }
+
+    .ecom__login p{
+        color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18.095px;
+    padding: 10px;
+    font-weight: 400;
+   
+    }
+
+    .ecom__login-signup{
+        padding: 1rem ;
+    }
+
+
+
+      .ecom__login-form{
+    position: absolute;
+    margin-left: 0;
+    margin-top: 10rem;
+    padding: 1rem;
+        
+      }
+
+      .ecom__login-form__logo img{
+        display: none;
+     }
+
+     .ecom__input-container__email{
+        padding: 1rem;
+        width: 100%;
+        margin: 40px 10px;
+           
+    }
+
+    .ecom__input-container__email input{
+        width: 180%;
+           
+    }
+
+    .ecom__input-container__pass{
+        padding: 2rem 1rem;
+        width: 100%;
+        margin: 40px 10px;
+    }
+
+    .ecom__input-container__pass input{
+        width: 180%;
+    }
+ 
+    .ecom__button-container__login button{
+        padding: 1rem;
+        width: 55%;
+        margin: 3rem 0 1rem 1rem;
+    }
+
+    .ecom__or h3{
+        padding: 1rem ;
+        margin-left: 1rem;
+        
+    }
+
+
+    
+
+    .ecom__button-container__otp button {
+       
+       margin-left: 1rem;
+       width: 100%;
+   
+        
+       
+    }
+
+    
+
+
+     
+}
